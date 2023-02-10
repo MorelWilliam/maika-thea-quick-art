@@ -19,3 +19,9 @@
         font-family: var(--font-raleway);
         color: black;
     }
+
+    main{
+        background-color: var(--couleur-secondaire);
+    }
+
+  
