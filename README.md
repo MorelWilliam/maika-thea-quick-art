@@ -1,1 +1,5 @@
-# maika-thea-quick-art
+# QuickArt
+## *Optimisation Web*
+### **Équipe**
+- Maïka Désy
+- Théa Lacasse
