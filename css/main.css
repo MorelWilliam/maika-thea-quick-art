@@ -1,0 +1,21 @@
+:root{
+--couleur-primaire:#83C5BE;
+--couleur-secondaire:#006D77;
+--couleur-semi-blanc:#EDF6F9;
+--couleur-rose-pale:#FFDDD2;
+--couleur-rose-foncé:#E29578;
+--font-raleway: 'Raleway', sans-serif;
+--font-prompt: 'Prompt', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    font-family: var(--font-prompt);
+    color: var(--couleur-semi-blanc);
+}
+
+h2 {
+    font-size: 40px;
+    font-family: var(--font-raleway);
+    color: black;
+}
