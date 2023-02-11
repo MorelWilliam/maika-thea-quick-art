@@ -33,3 +33,21 @@
         font-size: 25px;
         font-family: var(--font-prompt);
     }
+
+ footer nav{
+    background-color:  #3f4978;
+    margin: 1rem;
+    vertical-align: 1rem;
+ }
+
+ footer img{
+    width: 250px;
+ }
+
+ footer p{
+    color: #EDF6F9;
+ }
+
+ input{
+    width: 23%;
+ }
