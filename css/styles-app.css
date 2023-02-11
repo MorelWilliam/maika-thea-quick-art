@@ -8,14 +8,28 @@
     --font-prompt: 'Prompt', sans-serif;
     }
     
-    h1{
-        font-size: 60px;
-        font-family: var(--font-prompt);
-        color: var(--couleur-semi-blanc);
-    }
     
-    h2 {
-        font-size: 40px;
-        font-family: var(--font-raleway);
-        color: black;
+
+    nav{
+        background-color: var(--couleur-secondaire);
+    }
+
+    .nav-item{
+        
+        color: var(--couleur-secondaire);
+    }
+
+    img{
+        width: 105px;
+    
+    }
+
+    .chat{
+        width: 50px;
+    }
+
+    .navbar-brand{
+        color: var(--couleur-semi-blanc);
+        font-size: 25px;
+        font-family: var(--font-prompt);
     }
