@@ -18,10 +18,16 @@
         
         color: var(--couleur-secondaire);
     }
+ .navbar-toggler-icon{
+    border: 2px solid var(--couleur-semi-blanc);
+    border-radius: 5px;
+    background-color: var(--couleur-primaire);
+    
+}
 
     img{
         width: 105px;
-    
+
     }
 
     .chat{
@@ -32,6 +38,7 @@
         color: var(--couleur-semi-blanc);
         font-size: 25px;
         font-family: var(--font-prompt);
+        text-align: 50px;
     }
 
  footer nav{
@@ -49,5 +56,44 @@
  }
 
  input{
-    width: 23%;
+    width: 90%;
+    margin: 5px;
+    border: 1px solid var(--couleur-secondaire);
+    border-radius: 5px;
+ }
+
+ 
+ input::placeholder{
+    width: 90%;
+    margin: 5px;
+    color: var(--couleur-secondaire);
+ }
+
+ 
+
+ svg{
+    color: var(--couleur-secondaire);
+ }
+
+ button{
+    width:20%;
+    margin: 5px;
+ }
+ 
+ .btn-primary{
+    background-color: var(--couleur-rose-foncé);
+    border: none;
+    font-family: var(--font-prompt);
+    font-weight: bold;
+    color: var(--couleur-semi-blanc);
+ }
+
+ .btn-primary:hover{
+    background-color: var(--couleur-rose-pale);
+    border: none;
+    
+ }
+
+ div .boutons {
+    overflow: hidden;
  }
