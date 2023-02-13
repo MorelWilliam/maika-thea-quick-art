@@ -1,27 +1,112 @@
-:root{
-    --couleur-primaire:#83C5BE;
-    --couleur-secondaire:#006D77;
-    --couleur-semi-blanc:#EDF6F9;
-    --couleur-rose-pale:#FFDDD2;
-    --couleur-rose-foncé:#E29578;
-    --font-raleway: 'Raleway', sans-serif;
-    --font-prompt: 'Prompt', sans-serif;
-    }
-    
-    h1{
-        font-size: 60px;
-        font-family: var(--font-prompt);
-        color: var(--couleur-semi-blanc);
-    }
-    
-    h2 {
-        font-size: 40px;
-        font-family: var(--font-raleway);
-        color: black;
-    }
+:root {
+  --couleur-primaire: #83c5be;
+  --couleur-secondaire: #006d77;
+  --couleur-semi-blanc: #edf6f9;
+  --couleur-rose-pale: #ffddd2;
+  --couleur-rose-foncé: #e29578;
+  --font-raleway: "Raleway", sans-serif;
+  --font-prompt: "Prompt", sans-serif;
+}
 
-    main{
-        background-color: var(--couleur-secondaire);
-    }
+h1 {
+  font-size: 60px;
+  font-family: var(--font-prompt);
+  color: var(--couleur-semi-blanc);
+}
 
-  
+h2 {
+  font-size: 40px;
+  font-family: var(--font-raleway);
+  color: black;
+}
+
+main {
+  background-color: var(--couleur-secondaire);
+}
+
+.navbar-brand {
+  color: var(--couleur-semi-blanc);
+  font-size: 25px;
+  font-family: var(--font-prompt);
+  text-align: 50px;
+}
+
+nav {
+  background-color: var(--couleur-secondaire);
+}
+
+.nav-item {
+  color: var(--couleur-secondaire);
+}
+
+img {
+  width: 105px;
+}
+
+.chat {
+  width: 50px;
+}
+
+.navbar-toggler-icon {
+  border: 2px solid var(--couleur-semi-blanc);
+  border-radius: 5px;
+  background-color: var(--couleur-primaire);
+}
+
+button {
+  width: 20%;
+  margin: 5px;
+}
+
+.btn-primary {
+  background-color: var(--couleur-rose-foncé);
+  border: none;
+  font-family: var(--font-prompt);
+  font-weight: bold;
+  color: var(--couleur-semi-blanc);
+}
+
+.btn-primary:hover {
+  background-color: var(--couleur-rose-pale);
+  border: none;
+}
+
+div .boutons {
+  overflow: hidden;
+}
+
+input {
+  width: 90%;
+  margin: 5px;
+  border: 1px solid var(--couleur-secondaire);
+  border-radius: 5px;
+}
+
+input::placeholder {
+  width: 90%;
+  margin: 5px;
+  color: var(--couleur-secondaire);
+}
+
+footer nav {
+  background-color: #3f4978;
+  margin: 1rem;
+  vertical-align: 1rem;
+}
+
+footer img {
+  width: 250px;
+}
+
+footer p {
+  color: #edf6f9;
+}
+
+svg {
+  color: var(--couleur-secondaire);
+}
+
+main,
+header {
+  background-color: #edf6f9;
+}
