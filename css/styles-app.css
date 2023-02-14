@@ -8,7 +8,9 @@
     --font-prompt: 'Prompt', sans-serif;
     }
     
-    
+    body{
+      background-color: var(--couleur-primaire);
+    }
 
     nav{
         background-color: var(--couleur-secondaire);
