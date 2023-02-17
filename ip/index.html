@@ -24,7 +24,7 @@
   <body>
 
 <header>
-  <nav class="navbar navbar-light navbar-expand-lg sticky-top">
+  <nav id="navbar-example2" class="navbar navbar-light navbar-expand-lg fixed-top">
     <div class="container">
         <div class="row justify-content-start">
          
@@ -36,10 +36,10 @@
 <img src="../../assets/artworks/pinceau.png">QuickArt</a>
 <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link" href="#scrollspyHeading1">Acceuil</a>
+    <a class="nav-link" href="#scrollspyHeading1">Application</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#scrollspyHeading2">Application</a>
+    <a class="nav-link" href="#scrollspyHeading2">Fonctionnalités</a>
   </li>
   <!--<li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
@@ -51,7 +51,7 @@
     </ul>
   </li> -->
   <li class="nav-item">
-    <a class="nav-link" href="#scrollspyHeading2">Fonctionnalités</a>
+    <a class="nav-link" href="#scrollspyHeading3">En savoir plus</a>
   </li>
 </ul>
       </div>
@@ -60,16 +60,17 @@
       
     </div>
       </nav>
+    
+  
 
-      
 </header>
   
 <main>
-
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
   <div class="containerApp" >
     <div class="row justify-content-evenly">
-      <div class ="col-lg-2">
-    <h2>Découvrez l'appllication officiel du festival</h2>
+      <div class ="col-lg-3">
+    <h2 id="scrollspyHeading1">Découvrez l'appllication officiel du festival</h2>
     <h3> QUICKART</h3>
     
       <div class="boutons">
@@ -83,10 +84,25 @@
 
  
     <div class="col-lg-2">
-      <div class="app"></div>
+      <div class="app"> <iframe src="http://127.0.0.1:5500/app/app.html"></iframe></div>
     </div>
 
     </div>
+</div>
+  </div>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+  
+  <h4 id="scrollspyHeading2">Fonctionnalités</h4>
+  <p></p>
+  
+</div>
+
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+  
+  <h4 id="scrollspyHeading3">en savoir plus</h4>
+  <p></p>
+  
 </div>
 
 </main>
@@ -109,7 +125,7 @@
         <div class="col-sm-3 col-6">
       <a class="navbar-brand" href="index.html">
         
-      <p> https://github.com/2142692/maika-thea-quick-art ©2023</p>
+      <h5> https://github.com/2142692/maika-thea-quick-art ©2023</h5>
       </a>
     </div>
         </div>

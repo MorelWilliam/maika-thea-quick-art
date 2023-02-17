@@ -41,7 +41,7 @@ main {
 
 nav {
   background-color: var(--couleur-secondaire);
-  position: fixed;
+
 }
 
 .nav-item {
@@ -95,7 +95,7 @@ input::placeholder {
 
 footer nav {
   background-color: #3f4978;
-  margin: 1rem;
+  margin-top: 1rem;
   vertical-align: 1rem;
 }
 
@@ -118,9 +118,10 @@ main {
 .app {
   background-color: red;
   width: 100%;
-  height: 600px;
+  height: 200px;
   aspect-ratio: 5/9;
   border-radius: 12px;
+  margin-top: 70px;
 }
 
 .navbar {
@@ -134,4 +135,13 @@ main {
 
 main {
   height: 300vh;
+}
+
+iframe{
+  width: 30vw;
+  height: 70vh;
+}
+
+#scrollspyHeading1{
+  margin-top: 70px;
 }

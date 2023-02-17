@@ -101,3 +101,7 @@
  div .boutons {
     overflow: hidden;
  }
+
+ main{
+   height: 300vh;
+ }
