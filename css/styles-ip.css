@@ -135,7 +135,7 @@ main {
 }
 
 main {
-  height: 300vh;
+  height: 200vh;
 }
 
 iframe{
@@ -164,4 +164,9 @@ iframe{
 .col-lg-3{
   margin-top: 250px;
   margin-right: 70px;
+}
+
+.card{
+  margin-top:25px;
+
 }

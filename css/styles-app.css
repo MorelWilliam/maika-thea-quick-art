@@ -105,4 +105,11 @@
  }
 
 
+ #scrollspyHeading1{
+    background-color: var(--couleur-primaire);
+ }
+
+ body {
+   background-color: var(--couleur-primaire);
+ }
 
