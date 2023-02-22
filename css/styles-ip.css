@@ -29,6 +29,8 @@ h3 {
  
 }
 
+
+
 main {
   background-color: var(--couleur-secondaire);
 }
@@ -148,12 +150,12 @@ iframe{
 }
 
 #scrollspyHeading2{
-  margin-top: 700px;
+  margin-top: 400px;
 }
 
 
 #scrollspyHeading3{
-  margin-top: 700px;
+  margin-top: 100px;
 }
 
 .nav-link {
