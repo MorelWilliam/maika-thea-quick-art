@@ -113,3 +113,14 @@
    background-color: var(--couleur-primaire);
  }
 
+h5{
+   font-size: 15px;
+}
+
+p{
+   font-size: 12px;
+}
+
+.horaire{
+   font-size: 10px;
+}
